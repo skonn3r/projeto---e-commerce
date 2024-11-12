@@ -22,7 +22,7 @@
     font-family:  'IceLand';
 }
 
-.icone {
+.icone-lupa {
     height: 20px;
 }
 
@@ -71,7 +71,7 @@ main {
 
 .produto:hover { /* quando o mouse passar encima do produto ele dá uma subida */
     position: relative;
-    bottom: 3px;
+    bottom: 4px;
 }
 
 .produto img {
@@ -82,4 +82,25 @@ main {
 
 .produto p {
     color: red;
+}
+
+.nav-paginas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.nav-paginas a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px;
+}
+
+.nav-paginas a:hover{
+    color: gray;
+}
+
+.icone-carrinho {
+    height: 25px;
 }
