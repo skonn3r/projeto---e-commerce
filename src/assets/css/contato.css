@@ -15,6 +15,7 @@
     color: white;
     padding: 10px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .link-logo {
@@ -31,6 +32,7 @@
     padding: 5px;
     margin-right: 5px;
     display: flex;
+    height: fit-content;
 }
 
 .form-buscar {

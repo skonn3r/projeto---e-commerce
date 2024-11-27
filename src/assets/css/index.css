@@ -14,6 +14,7 @@
     color: white;
     padding: 10px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .link-logo {
@@ -34,6 +35,7 @@
 
 .form-buscar {
     display: flex;
+    height: fit-content;
 }
 
 /* as cores de background foram definidas apenas pra visualizar melhor o código */
