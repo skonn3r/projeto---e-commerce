@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Audiowide&family=Iceland&family=Permanent+Marker&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    justify-content: space-between;
+    align-items:center
+
+}
+
+.rodape {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    justify-content: center;
+    align-items:center
+}
+
+.link-logo {
+    text-decoration: none;
+    color: white;
+    font-family: 'IceLand';
+}
+
+.icone-lupa {
+    height: 20px;
+}
+
+#input-buscar {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.form-buscar {
+    display: flex;
+    height: fit-content
+}
+
+.nav-paginas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.nav-paginas a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+.nav-paginas a:hover {
+    color: gray;
+}
+
+.icone-carrinho {
+    height: 25px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    margin: 20px auto;
+    width: 90%;
+    padding: 20px;
+    margin-bottom: 40px;
+    
+}
+
+.sessao {
+    margin-bottom: 30px;
+}
+
+.sessao h3 {
+    margin: 0;
+    background-color: mediumaquamarine;
+    padding: 10px;
+    color: white;
+}
+
+.item {
+    display: flex;
+    gap: 15px;
+    margin: 10px 0;
+    align-items: center;
+}
+
+.itembox {
+    width: 20px;
+    height: 20px;
+}
+
+.item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.detalhes {
+    flex: 1;
+    margin: 10px;
+}
+
+.controle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.preco {
+    font-weight: bold;
+    color: #d32f2f;
+}
+
+.acoes {
+    display: flex;
+    gap: 10px;
+}
+
+main button {
+    background-color: limegreen;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #951717;
+}
+
+.rem {
+    background-color: red;
+}
+
+.add {
+    background-color:limegreen;
+}
+
+.add:hover {
+    background-color: #275e29;
+}
+
+.resumo {
+    flex: 1;
+    border: 1px solid rgb(206, 203, 203);
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.resumo h4 {
+    color: #d32f2f;
+}
+
+
+.detalhes :first-child { /* deixa o primeiro filho de detalhes com a fonte em negrito */
+    font-weight: bold;
+}
+
+.itens {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+/* @media base pra o cabeçalho ficar responsivo */
+@media screen and (max-width: 800px) {
+    .nav-paginas{
+        flex-direction: column;
+        position: absolute;
+        right: 0px;
+        top: 49px;
+        background-color: black;
+        margin-right: 0px;
+    } 
+
+    .nav-paginas a{
+        border: 2px solid gray;
+        margin-top: 1px;
+        display: flex;
+        width: 100%;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-paginas a:hover {
+        background-color: orangered;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .item img {
+        width: 80%;
+        height: auto;
+    }
+
+    .controle {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .controle button {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .resumo {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .cabecalho {
+        flex-direction: column;
+        align-items: center;
+    }
+}
