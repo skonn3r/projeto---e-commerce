@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LC e-commerce</title>
+    <link rel="stylesheet" href="../assets/css/detalhes.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="index.html" class="link-logo">
+            <h2>LC e-commerce</h2>
+        </a>
+        <form action="" method="get" class="form-buscar">
+            <input type="search" name="input-buscar" id="input-buscar" placeholder="Buscar na LC">
+            <button type="submit">
+                <img src="../assets/images/lupa.png" alt="" class="icone-lupa">
+            </button> 
+        </form>
+        <nav class="nav-paginas">
+            <a href="#">Loja</a>
+            <a href="#">Categorias</a>
+            <a href="../pages/contato.html">Contato</a>
+            <a href="#"><img src="../assets/images/carrinho1.png" alt="carrinho-de-compras"  class="icone-carrinho"></a>
+        </nav>
+    </header>
+    <main>
+        <div class="produto-avaliacoes">
+            <img src="https://imgcentauro-a.akamaihd.net/1366x1366/97360651.jpg" alt="tênis addidas" class="img-produto">
+            <h3>Avaliações dos clientes(348)</h3>
+            <div class="nota">
+                <h2>4.90</h2>
+                <img src="../assets/images/estrela.png" alt="">
+                <img src="../assets/images/estrela.png" alt="">
+                <img src="../assets/images/estrela.png" alt="">
+                <img src="../assets/images/estrela.png" alt="">
+                <img src="../assets/images/estrela-metade.png" alt="">
+            </div>
+            <div class="atributos">
+                <p>Versatilidade <span>4.28</span></p>
+                <p>Aparência <span>4.54</span></p>
+                <p>Conforto <span>4.46</span></p>
+            </div>
+        </div>
+        <div class="produto-caracteristicas">
+            <h2>Sapatos casuais, Tênis Branco Versátil e de Cadarço</h2>
+            <p>perfeito para quem busca estilo e conforto no dia a dia. Feito com material respirável e sola antiderrapante, oferece segurança e leveza em cada passo. Ideal para combinar com diferentes looks, desde o trabalho até momentos de lazer.</p>
+            <h3>
+                R$84,90 <span>159,90</span> <span id="span-desconto">- 46%</span>
+            </h3>
+            <h4>
+                #2 Mais Vendido <span> na categoria Roupas</span>
+            </h4>
+            <div class="input-produto">
+                <label for="cores">Cor:</label>
+                <select name="cores" id="cores">
+                    <option value="branco">Branco</option>
+                    <option value="branco">Preto</option>
+                    <option value="branco">Cinza</option>
+                </select>
+                <label for="tamanho">Tamanho:</label>
+                <select name="tamanho" id="tamanho">
+                    <option value="36">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                    <option value="41">41</option>
+                    <option value="42">42</option>
+                    <option value="43">43</option>
+                  </select>
+            </div>
+            <p class="p-frete"> <span>Frete:</span> R$ 29,00 - Previsão de entrega até o dia 15 de dezembro.</p> 
+            <a class="adicionar-ao-carrinho" href="carrinho.html"> 
+                Adicionar ao carrinho <img class="icone-carrinho" src="../assets/images/carrinho1.png" alt="">
+            </a>
+        </div>
+    </main>
+</body>
+</html>
