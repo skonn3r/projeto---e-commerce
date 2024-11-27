@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <link rel="stylesheet" href="../assets/css/carrinho.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="index.html" class="link-logo">
+            <h2>LC e-commerce</h2>
+        </a>
+        <form action="" method="get" class="form-buscar">
+            <input type="search" name="input-buscar" id="input-buscar" placeholder="Buscar na LC">
+            <button type="submit">
+                <img src="../assets/images/lupa.png" alt="" class="icone-lupa">
+            </button> 
+        </form>
+        <nav class="nav-paginas">
+            <a href="loja.html">Loja</a>
+            <a href="categoria.html">Categorias</a>
+            <a href="contato.html">Contato</a>
+            <a href="carrinho.html"><img src="../assets/images/carrinho1.png" alt="carrinho-de-compras"  class="icone-carrinho"></a>
+
+        </nav>
+    </header>
+    <main>
+        <div class="conteudo">
+          <h2 class="itens">TODOS OS ITENS</h2>
+    
+          <div class="sessao">
+            <h3 >Carrinho de compras</h3>
+            <br>
+            <p><a href="#">Desmarcar todos os itens
+            </a></p>  
+            <div class="item">
+                <input type="checkbox" class="itembox" checked><!-- checked significa que ao carregar a página ele já vai estar selecionado -->
+              <img src="https://static.netshoes.com.br/produtos/tenis-adidas-response-runner/26/FB9-8539-026/FB9-8539-026_zoom1.jpg?ts=1717500421?ims=1088x" alt="tenis-addidas">
+              <div class="detalhes">
+                <p class="itens">COLOR SPORTS.</p>
+                <p class="itens">adidas Tênis adulto unissex Response Runner U, Multi, 4…</p>
+                <div class="controle">
+                    <span class="preco" class="itens">R$319,88</span>
+                    <div class="acoes">
+                      <button class="add" >Adicionar</button>
+                      <button class="rem" >Excluir</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="sessao">
+            <div class="item">
+                <input type="checkbox" class="itembox" checked> 
+              <img src="https://m.media-amazon.com/images/I/51iMYMJsOUL._AC_SL1500_.jpg" alt="borracha-moto">
+              <div class="detalhes">
+                <p class="itens">MOTOMIX PEÇAS E ACESSORIOS</p> 
+                <p class="itens">Borracha Do Estribo Titan 160 (par) Tribal</p>
+                <div class="controle">
+                    <span class="preco">R$14,00</span>
+                    <div class="acoes">
+                      <button  class="add">Adicionar</button>
+                      <button  class="rem">Excluir</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sessao">
+            <div class="item">
+                <input type="checkbox" class="itembox" checked> <!-- checked significa que ao carregar a página ele já vai estar selecionado -->
+              <img src="https://http2.mlstatic.com/D_NQ_NP_972350-MLB53971063492_022023-O.webp" alt="pneu-moto">
+              <div class="detalhes">
+                <p class="itens">MOTOMIX PEÇAS E ACESSORIOS</p> 
+                <p class="itens">Par Pneu Original Cg 125 150 160 Titan Fan Levorin Novo</p>
+                <div class="controle">
+                    <span class="preco">R$514,00</span>
+                    <div class="acoes">
+                      <button  class="add">Adicionar</button>
+                      <button  class="rem">Excluir</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <aside class="resumo">
+          <h3 class="itens">Resumo do Pedido</h3>
+          <h4 class="itens">Subtotal:<span> R$ 848,88</span></h4>
+          <button id="botoesm" class="itens">Fechar pedido</button>
+        </aside>
+      </main>
+      <footer class="rodape">
+        Made by Clenilson Ferreira and Luan Pablo
+      </footer>
+</body>
+</html>
