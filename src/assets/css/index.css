@@ -106,3 +106,19 @@ main {
 .icone-carrinho {
     height: 25px;
 }
+
+
+.link-detalhes {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.rodape {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    justify-content: center;
+    align-items:center
+}
