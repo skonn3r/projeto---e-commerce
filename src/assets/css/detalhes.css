@@ -109,7 +109,7 @@ main {
 }
 
 .atributos span {
-    font-weight: bold; /* deixa a fonte em negrito */
+    font-weight: bold; 
 }
 
 .produto-caracteristicas {
@@ -126,7 +126,7 @@ main {
 
 .produto-caracteristicas > h3 {
     color: limegreen;
-    font-size: 1.4em; /* essa unidade de medida é baseada no tamanho da fonte do elemento pai */
+    font-size: 1.4em; 
 }
 
 .produto-caracteristicas > h3 > span {
@@ -147,7 +147,7 @@ main {
     color: rgb(253, 221, 179);
     background-color: goldenrod;
     width: fit-content; /* a largura se adpta ao tamanho do conteúdo */
-    padding: 5px 0px 5px 5px; /* deixa o padding do lado direito do h4 como 0px e o dos outros com 5px */
+    padding: 5px 0px 5px 5px; 
 }
 
 .produto-caracteristicas > h4 > span {
@@ -173,7 +173,7 @@ main {
     align-items: center;
     justify-content: space-between;
     width: 200px;
-    padding: 5px 9px; /* padding de cima e de baixo fica 5px enquanto da esquerda e da direita fica 9px */
+    padding: 5px 9px; 
     font-size: 17px;
     text-decoration: none;
 }
@@ -185,7 +185,6 @@ main {
 }
 
 @media screen and (max-width: 620px) {
-    /* transforma o nav em um elemento de position absolute e muda o flex direction para column para que o menu de links fique vertical e sobre espaço no cabeçalho */
     .nav-paginas{
         flex-direction: column;
         position: absolute;

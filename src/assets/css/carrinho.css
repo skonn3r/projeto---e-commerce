@@ -179,7 +179,6 @@ button:hover {
     margin-bottom: 12px;
 }
 
-/* @media base pra o cabeçalho ficar responsivo */
 @media screen and (max-width: 800px) {
     .nav-paginas{
         flex-direction: column;

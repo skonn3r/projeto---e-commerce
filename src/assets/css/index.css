@@ -38,7 +38,7 @@
     height: fit-content;
 }
 
-/* as cores de background foram definidas apenas pra visualizar melhor o código */
+
 main {
     background-color: aliceblue;
     display: flex;
@@ -71,7 +71,7 @@ main {
     align-items: center;
 }
 
-.produto:hover { /* quando o mouse passar encima do produto ele dá uma subida */
+.produto:hover { 
     position: relative;
     bottom: 4px;
 }

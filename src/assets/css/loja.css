@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Audiowide&family=Iceland&family=Permanent+Marker&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalho {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-logo {
+    text-decoration: none;
+    color: white;
+    font-family:  'IceLand';
+}
+
+.icone-lupa {
+    height: 20px;
+}
+
+#input-buscar {
+    padding: 5px;
+    margin-right: 5px;
+    display: flex;
+}
+
+.form-buscar {
+    display: flex;
+    height: fit-content;
+}
+
+.nav-paginas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.nav-paginas a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px;
+}
+
+.nav-paginas a:hover{
+    color: gray;
+}
+
+.icone-carrinho {
+    height: 25px;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(231, 231, 231, 0.658);
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.lista-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.produto {
+    background-color: bisque;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 25px;
+    width: 250px; 
+    box-sizing: border-box;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#black-friday{
+    width: 100%;
+}
+
+.produto:hover {
+    position: relative;
+    bottom: 4px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.produto img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+.produto span {
+    display: block;
+    font-size: 1.5em;
+    color: #000000;
+    margin: 10px 0;
+}
+
+.produto p {
+    color: #666;
+}
+
+#ver-mais {
+    padding: 1rem 4rem;
+    font-size: 1rem;
+    background-color: bisque;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.link-detalhes {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.rodape {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    justify-content: center;
+    align-items:center
+}
+
+@media (max-width: 768px) {
+    #lista-produtos1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .produto {
+        width: 80%; 
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .nav-paginas{
+        flex-direction: column;
+        position: absolute;
+        right: 0px;
+        top: 49px;
+        background-color: black;
+        margin-right: 0px;
+    } 
+
+    .nav-paginas a{
+        border: 2px solid gray;
+        margin-top: 1px;
+        display: flex;
+        width: 100%;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-paginas a:hover {
+        background-color: orangered;
+        color: white;
+    }
+
+    
+    .produto img{
+        width: 180px;
+        height: 180px;
+    }
+}
+
