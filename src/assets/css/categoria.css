@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Audiowide&family=Iceland&family=Permanent+Marker&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+.cabecalho {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-logo {
+    text-decoration: none;
+    color: white;
+    font-family:  'IceLand';
+}
+
+.icone-lupa {
+    height: 20px;
+}
+
+#input-buscar {
+    padding: 5px;
+    margin-right: 5px;
+    display: flex;
+}
+
+.form-buscar {
+    display: flex;
+    height: fit-content;
+}
+
+.nav-paginas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.nav-paginas a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px;
+}
+
+.nav-paginas a:hover{
+    color: gray;
+}
+
+.icone-carrinho {
+    height: 25px;
+}
+
+main{
+    background-color: rgba(231, 231, 231, 0.658);
+    padding: 20px;
+    text-align: center;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: center;
+    width: 100%;
+}
+
+.produto {
+    background-color: bisque;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 15px;
+    width: 230px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.produto:hover {
+    position: relative;
+    bottom: 5px;
+}
+
+.produto img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.produtos .botao-mais{
+    padding: 15px;
+    border-radius: 100%;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+}
+
+.preco-original {
+    text-decoration: line-through;
+}
+
+.preco-promocional {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.link-detalhes {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.rodape {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    justify-content: center;
+    align-items:center
+}
+
+@media screen and (max-width: 620px) {
+    .nav-paginas{
+        flex-direction: column;
+        position: absolute;
+        right: 0px;
+        top: 49px;
+        background-color: black;
+        margin-right: 0px;
+    } 
+
+    .nav-paginas a{
+        border: 2px solid gray;
+        margin-top: 1px;
+        display: flex;
+        width: 100%;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-paginas a:hover {
+        background-color: orangered;
+        color: white;
+    }
+    
+    .produtos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .produto img{
+        width: 180px;
+        height: 180px;
+    }
+
+
+
+}
