@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Audiowide&family=Iceland&family=Permanent+Marker&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabecalho {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-logo {
+    text-decoration: none;
+    color: white;
+    font-family:  'IceLand';
+}
+
+.icone-lupa {
+    height: 20px;
+}
+
+#input-buscar {
+    padding: 5px;
+    margin-right: 5px;
+    display: flex;
+    height: fit-content;
+}
+
+.form-buscar {
+    display: flex;
+}
+
+.nav-paginas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.nav-paginas a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px;
+}
+
+.nav-paginas a:hover{
+    color: gray;
+}
+
+.icone-carrinho {
+    height: 25px;
+}
+
+main {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-pagando {
+    margin-top: 20px;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+.form-contato {
+    margin-top: 20px;
+    background-color: bisque;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.form-contato input, textarea {
+    padding: 5px;
+    width: 400px;
+}
+
+.form-contato label {
+    position: relative;
+    right: 147px;
+    width: 100px;
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+
+.form-contato button {
+    padding: 5px 10px;
+    margin-top: 10px;
+    color: black;
+    background-color: white;
+}
+
+.form-contato button:hover {
+    background-color: rgb(207, 206, 206);
+    color: white;
+}
+
+.bandeirascard {
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+}
+
+.bandeiras {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    margin: 5px 10px;
+    background-color: bisque;
+    color: black;
+}
+
+.bandeiras:hover {
+    background-color: wheat;
+}
+
+.bandeirascard img {
+    width: 40px;
+    margin-bottom: 4px;
+}
+
+@media screen and (max-width: 1000px){
+    .form-contato {
+        width: 400px;
+    }
+    
+    .form-contato input, textarea {
+        width: 300px;
+    }
+    
+    .form-contato label {
+        right: 100px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .img-pagando {
+        display:none 
+    }
+}
+
+
+@media screen and (max-width: 620px) {
+    .nav-paginas{
+        flex-direction: column;
+        position: absolute;
+        right: 0px;
+        top: 49px;
+        background-color: black;
+        margin-right: 0px;
+    } 
+
+    .nav-paginas a{
+        border: 2px solid gray;
+        margin-top: 1px;
+        display: flex;
+        width: 100%;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-paginas a:hover {
+        background-color: orangered;
+        color: white;
+    }
+}
+
+.rodape {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    justify-content: center;
+    align-items:center
+}

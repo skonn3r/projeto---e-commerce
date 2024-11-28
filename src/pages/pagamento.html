@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LC e-commerce</title>
+    <link rel="stylesheet" href="../assets/css/pagamento.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="../pages/index.html"" class="link-logo">
+            <h2>LC e-commerce</h2>
+        </a>
+        <form action="" method="get" class="form-buscar">
+            <input type="search" name="input-buscar" id="input-buscar" placeholder="Buscar na LC">
+            <button type="submit">
+                <img src="../assets/images/lupa.png" alt="" class="icone-lupa">
+            </button> 
+        </form>
+        <nav class="nav-paginas">
+            <a href="../pages/loja.html">Loja</a>
+            <a href="../pages/categoria.html">Categorias</a>
+            <a href="../pages/contato.html">Contato</a>
+            <a href="../pages/carrinho.html"><img src="../assets/images/carrinho1.png" alt="carrinho-de-compras"  class="icone-carrinho"></a>
+        </nav>
+    </header>
+    <main>
+        <img src="../assets/images/pagando.png" alt="pagando" class="img-pagando">
+        <form action="" class="form-contato">
+            <h1>CARTAO DE CRÉDITO</h1>
+
+            <label for="nome">Nome:</label>
+            <input type="text" name="numerocard" id="input-numero" placeholder="Digite o número do cartão">
+
+            <label for="email">Email:</label>
+            <input type="email" name="validadecard" id="input-validade" placeholder="Validade">
+
+            <label for="assunto">Assunto:</label>
+            <input type="text" name="ccvcard" id="input-ccv" placeholder="CCV">
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="infos" id="input-compradorinfo" placeholder="Informações do Comprador" rows="4"></textarea>
+
+            <button>Finalizar compra</button>
+        </form>
+    </main> 
+    <div class="bandeirascard"> <!-- adicionar icones em cada meio depois -->
+        <div class="bandeiras">
+            <img src="../assets/images/elo.png" alt="pin-de-local">
+            <h3>ELO</h3>
+            </p>
+        </div>
+        <div class="bandeiras">
+            <img src="../assets/images/visa.png" alt="telefone">
+            <h3>VISA</h3>
+            </p>
+        </div>
+        <div class="bandeiras">
+            <img src="../assets/images/mastercard.png" alt="envelope">
+            <h3>MASTERCARD</h3>
+            </p>
+        </div>
+        <div class="bandeiras">
+            <img src="../assets/images/hipercard.png" alt="joinha">  
+            <h3>HIPERCARD</h3>
+            </p>
+        </div>
+
+        <footer class="rodape">
+            Made by Clenilson Ferreira and Luan Pablo
+        </footer>
+    </div>
+    
+</body>
+</html>
