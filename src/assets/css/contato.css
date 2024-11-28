@@ -194,3 +194,14 @@ main {
         color: white;
     }
 }
+
+.rodape {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    justify-content: center;
+    align-items:center
+}
